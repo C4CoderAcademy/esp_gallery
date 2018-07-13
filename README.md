@@ -81,21 +81,36 @@ Data base relations are as follows:
 ![erd](https://raw.githubusercontent.com/casscass/esp_gallery/development/README-images/ERD_C4.png)
 
 #### 14. Provide User stories for your App.
-User Stories
-* Artist 
+# User Stories
 
-    * As an artist I want to be able to sign up to esp gallery website so that I can use the website. 
+## User
+* As a user I want to be able to easily buy artwork in an efficient manner.
+* As a user I want to be able to search for an artist to make my experience less convoluted.
+* As a user I want the ability to access a list past orders so that I can find relevant information.
+* As a user I want to be able to search for different styles of art to ease in my purchase experience.
+* As a user I want to be able to see more detailed information on prospective art to buy to help inform my decision making.
+* As a user I want to be able to learn more about ESP Gallery to provide some background on the company.
+* As a user I want to be able to update my personal information to make sure its current.
+* As a user I want to view and receive new information about upcoming exhibits to stay up to date.
+* As a user I want to know who will be responsible for sending my artwork I have purchased.
 
-    * As an artist that has already signed up. I want to be able to go to the website and log in using my password anytime I feel like it.
+## Artist
+* As an artist I want to be able to easily sign up and create a profile so that  I can upload pictures of my art.
+* As an artist I want to be able to sell my artwork to increase my profits so that I can continue creating art.
+* As an artist I want to be able to exhibit my art so that I can showcase my work and increase my exposure.
+* As an artist I want to be able to provide a description of my artwork so that I can engage more people with my art.
+* As an artist I would like a historical section so that people can still view my art after an exhibition has finished.
+* As an artist I want to be able to update information on my art so that I can change the price_description_photos etc.
+* As an artist I want to be able to easily find information on exhibiting my work.
+* As an artist I want the application process for exhibiting art to be efficient and easy to use.
+* As an artist I want to see what dates are available in the Virtual Gallery so I can book a time for my own exhibition.
+* As an artist, I want to know what my obligations are for selling my work on the website.
+* As an artist who has sold art through the website, I want to know what happens if art is damaged in transit. Who is responsible and can I keep the sale money.
 
-Ability to change my information on my Profile Page
-    * As an artist who has signed up I want to be  able to change/update my information and when I refresh the page I want to see the updated information.
-
-    * As an artist when I log in I want to be able to update /change the price and when I refresh the page I want to see the updated information.
-
-* User
-  * Item 2a
-  * Item 2b
+## Admin
+* As an admin I want the ability to manage content to maintain site quality. This includes the ability to delete inappropriate content.
+* As an admin I want the ability to receive exhibition applications so that I can select who to exhibit.
+* As an admin I want to be able to receive commission from transactions so that I can continue to provide a service.
 
 
 #### 15. Provide Wireframes for your App.
