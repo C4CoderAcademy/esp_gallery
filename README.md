@@ -7,23 +7,33 @@ Part A Questionnaire
 ESP Gallery - contact Lou Steer
 
 #### 2. What is your client’s need (i.e. challenge) that you will be addressing in your Project?
-The client has outlined the need for user friendly, aesthetically inviting online platform for art buyers, sellers and enthusiasts. It is important that the site promotes the same sense of community, for which ESP Gallery is known. Project requirements include:
-  * Signup and login for users.  Includes site admin, buyers and sellers  
-  * A gallery space that artists can hire/book to display art
-  * No automatic audio play, so people can to the site without drawing the attention of others.
-  * Users to be able to display, sell or buy artwork 
-  * The ability to upload/add/edit/destroy artwork images, price, text, dimensions, etc. by artists/sellers. 
-  * A disclaimer agreement for artists to show that they understand shipping responsibilities.
-  * Artists/sellers ability to have artwork on site but not necessarily for sale
-  * A commission on all art sales processed by the site, to be sent to the client
-  * Site admins ability to alter key data fields of the site e.g. text and images
 
+Our client, ESP Gallery, needs a user friendly, aesthetically inviting online art platform allowing users to display, sell or buy artwork and for enthusiasts to view art. Our client wants to receive a commission on all art sales processed by the site. Also, a hireable, main gallery section (i.e. the homepage), is needed for artists who want more exposure for their art. It is important that the site promotes the same sense of community, for which ESP Gallery is known. The site admin must be able to alter key aspects of the site.
 
 #### 3. Describe the client’s current setup and data.
-No current Website
+There is no current website or data. The gallery sells no art at the moment. It only has an online presence through Facebook and Instagram.  
 
 #### 4. Describe the project will you be conducting and how your App will address the client’s needs.
-The esp gallery website will have a virtual gallery that can be booked by artists. The virtual gallery will be on the landing page.  
+
+The ESP Gallery App uses MongoDB, Express, React, Node, Bootstrap, Sendgrid, stripe, cloudinary, atlas, and passport technologies.
+The app will fulfil the client needs, as described in question 2 by:
+
+  * providing a beautiful, well designed site that promotes community through the thoughtful use of html, css, bootstrap, images, and appropriate text and fonts.
+
+  * providing registration/login so that art buyers, sellers and site admin can use the site. We will use Passport to manage this functionality.
+
+  * providing pages that allow art listings to be created and provides fields for entering and editing key information about the art.
+  
+  * allowing the buying and selling of art through online payments managed by Stripe Connect. Stripe Connect will also be used to allow ESP Gallery to take it's 30% required commission on all sales. The gallery would like more payment options, so we will implement Paypal if there is enough time to address this need.
+
+  * allowing artists to have their art displayed in the Gallery by providing the Gallery admin the ability to upload the artist's work to the gallery when requested.
+
+  * setting up a special Admin Account that gives this user type the ability to: create, edit and delete all user-generated content and to create, edit and delete key website content, and to view sales records.
+
+  * displaying a disclaimer agreement for artists to show that they understand shipping responsibilities.
+
+  * providing no automatic audio play, so people can use the site without drawing the attention of others.
+
 
 #### 5. Identify and describe the software (including databases) to be used in your App.
 
@@ -61,6 +71,8 @@ Hardware will be
 
 #### 8. Describe the architecture of your App.
 
+We have decided on a model, view, controller, layered architecture pattern. The app uses MongoDB, above which, is our backend layer containing our models, business logic and data types. We have utilised Mongoose and Express for this.  Our controllers transform and manipulate the data between this model layer and the front-end view layer, which is built with React JS and uses HTML/CSS, Javascript, and bootstrap.  
+This architecture allows compartmentalisation of the app's different functions, aiding the building process so that changes in one layer or function aren't affected by other layers.
 
 #### 9. Explain the different high-level components (abstractions) in your App.
 The different functionalities of the app are the sales function.
@@ -137,6 +149,30 @@ Additionally, a Trello powerup called TeamGantt is being used to monitor progres
 
 
 #### 17. Discuss how Agile methodology is being implemented in your App.
+
+Agile methodology was used to complete our project as follows:
+
+A)  Sprints
+These were as implemented as follows:
+June 25 - July 2 Team building, planning and research
+July 2-July 11 Part A questionnaire and rough draft of Markdown for part B
+July 11- July 21 Development phase 
+July 21 - July 24 Project review and delivery to client, Finalise docs and code, presentation planning
+
+B) Collaboration with the customer
+We managed client satisfaction ensuring that the product met her needs 
+by keeping her updated on the progress and seeking her input on the website throughout our sprints.  
+
+C) Commitment to the delivery of working software as frequently as possible. 
+
+D)  Commitment to team morale
+Motivation is key in Agile.  Being mindful of a positive team environment and being supportive will ensure teammates can be trusted to get their jobs done.
+
+E)  Implementing a communication plan that utilizes face-to-face communication to best transfer information within our team.
+
+F) Every day we have a team meeting so we could find out how to increase team effectiveness and to ensure we are constantly moving in the right direction. 
+
+G) We self-organize by using the Trello board and team meetings to direct our focus
 
 #### 18. Provide an overview and description of your Source control process.
 
