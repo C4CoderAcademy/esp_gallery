@@ -7,19 +7,17 @@ Part A Questionnaire
 ESP Gallery - contact Lou Steer
 
 #### 2. What is your client’s need (i.e. challenge) that you will be addressing in your Project?
-The client has outlined the need for an online gallery website that can be booked by artist with the following features:
-  * An easily navigable site
-  * Virtual gallery and shop
-  * Easy for users to buy
-  * Sound muted / no noise so people can sneakily look and buy from website at work. Without being sprung!
-  * A for hire gallery space that artists can hire/book - To be called 'Virtual Gallery'
-  * A shop that sells artworks
-  * Artist able to sign up and upload images of artwork, price & text. Artists able to  add/edit/destroy  images, text, price
-    * Ability for artists to input artwork dimensions and properties (requirement)
-    * Must be easy to upload artworks - ease of usability for admin and demographic.
-    * Disclaimer agreement for artists to show that they understand shipping responsibilities.
-  * Artists to have artwork on site but not necessarily for sale
-  * Log in page for artists - administrator will use too
+The client has outlined the need for user friendly, aesthetically inviting online platform for art buyers, sellers and enthusiasts. It is important that the site promotes the same sense of community, for which ESP Gallery is known. Project requirements include:
+  * Signup and login for users.  Includes site admin, buyers and sellers  
+  * A gallery space that artists can hire/book to display art
+  * No automatic audio play, so people can to the site without drawing the attention of others.
+  * Users to be able to display, sell or buy artwork 
+  * The ability to upload/add/edit/destroy artwork images, price, text, dimensions, etc. by artists/sellers. 
+  * A disclaimer agreement for artists to show that they understand shipping responsibilities.
+  * Artists/sellers ability to have artwork on site but not necessarily for sale
+  * A commission on all art sales processed by the site, to be sent to the client
+  * Site admins ability to alter key data fields of the site e.g. text and images
+
 
 #### 3. Describe the client’s current setup and data.
 No current Website
@@ -72,10 +70,10 @@ The different functionalities of the app are the sales function.
 Third party services will be: Stripe and maybe Paypal (Paypal is a sprinkle)
 
 #### 11. Identify the database to be used in your app and provide a justification for your choice.
-
+The database we will be using is MongoDB. It stores data in JSON-like documents which can have different fields, allowing the database structure to change over time. As a distributable database, it provides horizontal scaling, high availability and geographic distribution. Additionally, its ability to handle ad hoc queries, indexing and real-time aggregation allow for easy access to the database throughout the structure of the app.
 
 #### 12. Discuss the database relations to be implemented.
-Data base relations are as follows:
+The models that we will be using in our database are users, artwork, and gallery.  The gallery, which is a singleton resource, has two foreign keys, one that relates to the artwork's primary key, and one that relates to the user primary key so that the artwork and artist shown in the gallery can be identified.  The artwork, has a foreign key, which relates to the user primary key, which allows artworks to be associated to it's user(a.k.a. artist/seller).
 
 #### 13. Provide your database schema design.
 ![erd](https://raw.githubusercontent.com/casscass/esp_gallery/development/README-images/ERD_C4.png)
@@ -126,29 +124,23 @@ Wireframes where made with Figma and can be viewed online [here](https://www.fig
 ![mockup](https://github.com/casscass/artcloud/blob/master/app/assets/images/Wireframs.png)
 
 #### 16. Describe the way Tasks are being allocated and tracked in your project.
-Tasks are being alocated by who feels like doing somthing...People are choosing what hey want to do.
-Tasks are being tracked useing Trello.
 
 #### Trello
-Trello board can be viewed [here](https://trello.com/b/NZm11i1D/c4-assignment)
+Tasks initially, were broadly distributed with two people on the front-end and two on the backend. Trello was then implemented to keep all tasks organised and the project progressing.  Team members created a Trello board and put all tasks in the "to do" section. After that team members could take ownership of a task by putting their name to it, move it to doing, and then put it in completed when they are done.  
 
-
-Trello was initially used to maintain source control. So we endened up with somethings in trello and others in Confluence. This actually worked well for us as we were familier with trello and it provided a familier source control while we familierised ourselves with Confluence.
+The Trello board can be viewed [here](https://trello.com/b/NZm11i1D/c4-assignment) or here:
 
 ![trello](https://github.com/casscass/esp_gallery/blob/development/README-images/trello1.png)
 
-##### Confluence jira
-Confluenct was used in conjuction with Trello to maintain source control.
-
-![confluence](https://github.com/casscass/esp_gallery/blob/development/README-images/confluence1.png)
+Additionally, a Trello powerup called TeamGantt is being used to monitor progress as pictured below:
+![gantt](https://github.com/casscass/artcloud/blob/master/app/assets/images/gantt.png)
 
 
 #### 17. Discuss how Agile methodology is being implemented in your App.
 
 #### 18. Provide an overview and description of your Source control process.
-A. We set up a dummy project to practice commits working as a team
-We are working on Github using a develop branch . Each feature has its own branch off the develope branch and is only merged when code works
-The master brance on git hub is only being pushed to once code is full functional
+
+We will be using a Git Feature Branch Workflow. Each individual decides on a feature to work on, creates a feature branch on their local machine and commits their changes to this branch as they progress. Once the feature is completed, the individual rebases their code from the main branch, resolves any conflicts, and then submits a merge request to the main branch. Once the feature is reviewed it is either approved and merged into the main branch, or rejected and marked for revision. 
 
 #### 19. Provide an overview and description of your Testing process.
 We will use Webpack for testing
