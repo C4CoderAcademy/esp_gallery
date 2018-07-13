@@ -75,7 +75,13 @@ We have decided on a model, view, controller, layered architecture pattern. The 
 This architecture allows compartmentalisation of the app's different functions, aiding the building process so that changes in one layer or function aren't affected by other layers.
 
 #### 9. Explain the different high-level components (abstractions) in your App.
-The different functionalities of the app are the sales function.
+We have three models: Users, Artworks and Gallery.  
+
+The user model represents either art buyers, sellers, or site admin.  All these users are able to sign in to  accounts. Site admin have extra permissions which allow the management of data on the site.  Users are able to create art listings, which enable them to sell artwork, and other users are able to buy this artwork.  Users that wish to be known as artists, are able to populate their profile with information about themselves and their art.  
+
+"Artworks" is another model that represent art that is/was for sale, or art shown on the gallery page.  It has data such as images, description, id, and a boolean on if it's in the gallery.    
+
+The Gallery abstraction is basically the home page and let's artists pay the gallery to show their art on this page.  They will also be able to display their personal artist profile or other info.  
 
 
 #### 10. Detail any third party services that your App will use.
@@ -88,40 +94,41 @@ The database we will be using is MongoDB. It stores data in JSON-like documents 
 The models that we will be using in our database are users, artwork, and gallery.  The gallery, which is a singleton resource, has two foreign keys, one that relates to the artwork's primary key, and one that relates to the user primary key so that the artwork and artist shown in the gallery can be identified.  The artwork, has a foreign key, which relates to the user primary key, which allows artworks to be associated to it's user(a.k.a. artist/seller).
 
 #### 13. Provide your database schema design.
+
+We used Dbdesigner to design our database schema as follows:
+
 ![erd](https://raw.githubusercontent.com/casscass/esp_gallery/development/README-images/ERD_C4.png)
 
 #### 14. Provide User stories for your App.
 # User Stories
 
 ## User
-* As a user I want to be able to easily buy artwork in an efficient manner.
-* As a user I want to be able to search for an artist to make my experience less convoluted.
-* As a user I want the ability to access a list past orders so that I can find relevant information.
-* As a user I want to be able to search for different styles of art to ease in my purchase experience.
-* As a user I want to be able to see more detailed information on prospective art to buy to help inform my decision making.
-* As a user I want to be able to learn more about ESP Gallery to provide some background on the company.
-* As a user I want to be able to update my personal information to make sure its current.
-* As a user I want to view and receive new information about upcoming exhibits to stay up to date.
-* As a user I want to know who will be responsible for sending my artwork I have purchased.
+* As a user, I want to be able to easily buy artwork in an easy efficient manner, so that I can have a wonderful consumer experience.
+* As a user, I want to be able to search for an artist to find art that I am looking for.
+* As a user, I want the ability to access a list past orders so that I can find relevant information.
+* As a user, I want to be able to search for different styles of art so I can buy everything that I want.
+* As a user, I want to be able to see more detailed information on prospective art to help inform my decision making.
+* As a user, I want to be able to update my personal information to make sure its current.
+* As a user, I want to view and receive new information about upcoming exhibits so that I know what's happening in the art scene.
 
-## Artist
-* As an artist I want to be able to easily sign up and create a profile so that  I can upload pictures of my art.
-* As an artist I want to be able to sell my artwork to increase my profits so that I can continue creating art.
-* As an artist I want to be able to exhibit my art so that I can showcase my work and increase my exposure.
-* As an artist I want to be able to provide a description of my artwork so that I can engage more people with my art.
-* As an artist I would like a historical section so that people can still view my art after an exhibition has finished.
-* As an artist I want to be able to update information on my art so that I can change the price_description_photos etc.
-* As an artist I want to be able to easily find information on exhibiting my work.
-* As an artist I want the application process for exhibiting art to be efficient and easy to use.
-* As an artist I want to see what dates are available in the Virtual Gallery so I can book a time for my own exhibition.
+## Artist or seller
+* As an artist or seller, I want to be able to easily sign up and create a profile so that I can upload pictures of my art.
+* As an artist, I want to be able to sell my artwork to increase my profits so that I can continue creating art.
+* As an artist, I want to be able to exhibit my art so that I can showcase my work and increase my exposure.
+* As an artist, I want to be able to provide a description of my artwork so that I can engage more people with my art.
+* As an artist, I would like a historical section so that people can still view my art after an exhibition has finished.
+* As an artist, I want to be able to update information on my art so that I can change the price_description_photos etc.
+* As an artist, I want to be able to easily find information on exhibiting my work.
+* As an artist, I want the application process for exhibiting art to be efficient and easy to use.
+* As an artist, I want to see what dates are available in the Virtual Gallery so I can book a time for my own exhibition.
 * As an artist, I want to know what my obligations are for selling my work on the website.
-* As an artist who has sold art through the website, I want to know what happens if art is damaged in transit. Who is responsible and can I keep the sale money.
+* As an artist, who has sold art through the website, I want to know what happens if art is damaged in transit. Who is responsible and can I keep the sale money.
 
 ## Admin
-* As an admin I want the ability to manage content to maintain site quality. This includes the ability to delete inappropriate content.
-* As an admin I want the ability to receive exhibition applications so that I can select who to exhibit.
-* As an admin I want to be able to receive commission from transactions so that I can continue to provide a service.
-
+* As admin, I want the ability to manage content to maintain site quality. This includes the ability to delete inappropriate content.
+* As admin, I want the ability to post art images to the site's gallery, so that I can create exhibits for my paying customers.
+* As admin, I want to be able to receive commission from transactions so that I can continue to provide a service.
+* As admin, I want to be able to display information about ESP Gallery, to provide some background on the company, and to promote a sense of community.
 
 #### 15. Provide Wireframes for your App.
 * Flow Chart
@@ -129,8 +136,8 @@ The models that we will be using in our database are users, artwork, and gallery
 ![flowchart](https://raw.githubusercontent.com/casscass/esp_gallery/development/README-images/preliminaryFlowChart.jpg)
 
 
-* Wifeframs 
-Wireframes where made with Figma and can be viewed online [here](https://www.figma.com/file/PU0NB9pOHF1cRj3zrTYRrLpC/ESP-gallery-wireframes
+* Wifeframes 
+Wireframes were made with Figma and can be viewed online here:(https://www.figma.com/file/PU0NB9pOHF1cRj3zrTYRrLpC/ESP-gallery-wireframes
 )
 
 ![mockup](https://github.com/casscass/artcloud/blob/master/app/assets/images/Wireframs.png)
