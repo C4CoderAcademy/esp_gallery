@@ -67,7 +67,15 @@ The app will fulfil the client needs, as described in question 2 by:
 Network will be: 
 
 #### 7. Identify and describe the infrastructure (i.e. hardware) that your App will run on.
-Hardware will be
+
+The client does not have the capacity to run her own server so the app will run on third party providers. The setup will be as follows:
+ 
+Our database, MongoDB will be hosted by mLab which is a cloud database hosting service located in San Francisco, California.
+
+The App will be deployed on Heroku. Heroku is a cloud platform service located in San Francisco, California.
+
+Amazon Simple Storage Service (AWS S3) will be used to store the App's images.  It is a cloud computing web service offered by Amazon Web Services and provides fast, reliable and scalable object storage. 
+The AWS we are using is located in West Virginia however, there are locations globally and we are currently looking into whether we should use one closer to Sydney.
 
 #### 8. Describe the architecture of your App.
 
