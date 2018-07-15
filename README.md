@@ -75,7 +75,7 @@ Our database, MongoDB will be hosted by mLab which is a cloud database hosting s
 The App will be deployed on Heroku. Heroku is a cloud platform service located in San Francisco, California.
 
 Amazon Simple Storage Service (AWS S3) will be used to store the App's images.  It is a cloud computing web service offered by Amazon Web Services and provides fast, reliable and scalable object storage. 
-The AWS we are using is located in West Virginia however, there are locations globally and we are currently looking into whether we should use one closer to Sydney.
+The AWS we are using is located in West Virginia however, there are locations globally and we are currently looking into whether we should use one closer to Sydney.  
 
 #### 8. Describe the architecture of your App.
 
