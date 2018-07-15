@@ -77,12 +77,12 @@ This architecture allows compartmentalisation of the app's different functions, 
 #### 9. Explain the different high-level components (abstractions) in your App.
 We have three models: Users, Artworks and Gallery.  
 
-The user model represents either art buyers, sellers, or site admin.  All these users are able to sign in to  accounts. Site admin have extra permissions which allow the management of data on the site.  Users are able to create art listings, which enable them to sell artwork, and other users are able to buy this artwork.  Users that wish to be known as artists, are able to populate their profile with information about themselves and their art.  
+The "user" model represents art buyers, sellers, and site admin.  All these users are able to sign in to  accounts. Site admin have extra permissions which allow the management of data on the site.  Users are able to create art listings, which enable them to sell artwork, and other users are able to buy this artwork.  Users that wish to be known as artists, are able to populate their profile with information about themselves and their art.  
 
-"Artworks" is another model that represent art that is/was for sale, or art shown on the gallery page.  It has data such as images, description, id, and a boolean on if it's in the gallery.    
-
+"Artworks", discussed above, is another model that represent art that is/was for sale, or art shown on the gallery page.  It has data such as images, description, id, and a boolean depending on if it's in the gallery.    
 The Gallery abstraction is basically the home page and let's artists pay the gallery to show their art on this page.  They will also be able to display their personal artist profile or other info.  
 
+Buying/selling is another abstraction that is not a model and is done so through another abstraction, "listing".   
 
 #### 10. Detail any third party services that your App will use.
 Third party services will be: Stripe and maybe Paypal (Paypal is a sprinkle)
