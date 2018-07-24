@@ -136,11 +136,42 @@ body {
 }
 /* END HOME PAGE */
 
+/* ABOUT US */
+.aboutwrapper {
+  /* background-image: url("colourAngle.png"); */
+  /* background-color: #337F96; */
+}
+
+.abouttext {
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: justify;
+}
+/* body {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #cccccc;
+} */
+
+.aboutimage {
+  text-align: center;
+  margin-top: 2%;
+}
+.historytextcolour {
+  background-color: #f9f8f8;
+}
+
+.espimage {
+  text-align: center;
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+/* END ABOUT US */
+
 /* CONTACT US */
 .ContactForm {
   margin-right: 15%;
   margin-left: 15%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 } 
 
 .FormBackground {
@@ -151,7 +182,6 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 5%;
- 
 }
 
 #exampleEmail { /* contact us email box */
