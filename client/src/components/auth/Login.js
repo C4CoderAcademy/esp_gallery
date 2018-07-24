@@ -62,9 +62,9 @@ class Login extends Component {
                 <input type="submit" className="btn btn-info btn-block mt-4" />
 
                   <div>
-                    <p className="lead text-center nopassword">Dont have a password ?</p>
+                    <p className="lead text-center nopassword">Dont have a password?</p>
                       <span className="LinkToregistrationForm">
-                        <Button href="/Register"   target="_blank">Sign Up Now</Button>
+                        <Button href="/Register" color="info" >Sign Up Now</Button>
                       </span>
                   </div>      
               </form>

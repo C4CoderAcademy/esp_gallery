@@ -37,7 +37,7 @@ export default class Example extends React.Component {
             <div className="Header">  
             
                    {/* TOP NAV */}
-                <div className="TopNav"> 
+                    <div className="TopNav"> 
     
                     {/* SEARCH BOX */}
                     <FormGroup className="topnavgroup">
@@ -95,6 +95,27 @@ export default class Example extends React.Component {
                             <NavItem>
                                 <NavLink href="/about/">About Us</NavLink>
                             </NavItem>
+
+                            <UncontrolledDropdown nav inNavbar>
+                                <DropdownToggle nav caret>
+                                Options
+                                </DropdownToggle>
+                                <DropdownMenu right>
+                                <DropdownItem>
+                                    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    Option 2
+                                </DropdownItem>
+                                <DropdownItem divider />
+                                <DropdownItem>
+                                    Reset
+                                </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+
+
+
                             
                                 {/* NAV DROPDOWN */}
                                 {/* <UncontrolledDropdown nav inNavbar>

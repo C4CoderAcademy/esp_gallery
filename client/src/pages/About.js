@@ -5,48 +5,27 @@ import Footer from './Footer';
 export default ({ match }) => (<div>
 
 
-  <div className="container">
-          <div className="row">
-      <h2 className="PageHeader">About Us</h2>
-        <ul>
-          <li>
-            <Link to={`${match.url}/ourstory`}>Our Story</Link>
-          </li>
-          <li>
-            <Link to={`${match.url}About/ourhistory`}>Our History</Link>
-          </li>
-          <li>
-            <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
-          </li>
-        </ul>
-    </div>
+  <div className="container">      
+    <h2 className="PageHeader">About Us</h2><br />
+      <div className="aboutwrapper">
+
+    
+      
+      <h3>Our story</h3>
+      <p>ESP Gallery opened in Illawarra Road,  Marrickville in September 2009.  Up to its physical closure in 2016,  ESP Gallery showed the work of over 300 local, national and international artists and held 75 exhibitions and events. 
+
+Highlights include Marrickville Contemporary Art Prize 2011 and 2012, Head On Festival 2010 and 2012, and Sydney Canvas Company Painting Prize 2013. Many ESP alumni have gone on to be finalists and winners of renowned public exhibitions including the Archibald, the Wynn and the Sulman.
+
+We are proud of what we have achieved with no government grants and our completely volunteer run organisation! 
+
+ESP Gallery is now evolving into a virtual gallery. We now show quality artworks in a fresh way.</p>
+
+    {/* </div> */}
     </div>
 
    <Footer /> 
   </div>
+  </div>
 );
 
-// const About = ({ match }) => (
-  //   <div>
-  //     <h2>Our Story</h2>
-  //     <ul>
-  //       <li>
-  //         <Link to={`${match.url}/ourstory`}>Our Story</Link>
-  //       </li>
-  //       <li>
-  //         <Link to={`${match.url}/ourhistory`}>Our History</Link>
-  //       </li>
-  //       <li>
-  //         <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
-  //       </li>
-  //     </ul>
-  
-  //     <Route path={`${match.url}/:shopId`} component={GalleryShop} />
-  //     <Route
-  //       exact
-  //       path={match.url}
-  //       render={() => <h3>Please select a topic.</h3>}
-  //     />
-  //   </div>
-  // );
   
