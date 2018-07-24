@@ -135,28 +135,13 @@ class NavMain extends Component {
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                    GitHub
-                  </NavLink>
+                <NavLink href="/about/">About Us</NavLink>
                 </NavItem>
-
-                {/* NAV DROPDOWN */}
-                {/* <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    <NavLink href="/about/">About Us</NavLink>
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem>Our Story</DropdownItem>
-                    <DropdownItem>Our History</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>Reset</DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown> */}
-                {/* END NAV DROPDOWN */}
-
+                
                 <NavItem>
                   <NavLink href="/contactus/">Contact Us</NavLink>
                 </NavItem>
+                
               </Nav>
             </Collapse>
           </Navbar>
