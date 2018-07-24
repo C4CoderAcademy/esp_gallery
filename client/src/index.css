@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: blue;
+  font-family: 'Libre Franklin', sans-serif !important;
 }
 
 /* FOOTER */
@@ -12,9 +12,72 @@ body {
   color: #F9F8F8;
 }
 
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+/* .fbicon:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; 
+} */
+
+.fbicon {
+  height: 25px;
+  padding-right: 0.5%;
+}
+
+.fbicon:hover {
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.instaicon {
+  height: 25px;
+  padding-left: 0.5%;
+}
+
+.instaicon:hover {
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
 .textinfooter {
   color: #F9F8F8;
   text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -30,18 +93,76 @@ body {
 .PageHeader {
   text-align: center;
   color: #444444;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 /* HOME PAGE */
+.areyouartistbox {
+  /* background-image: linear-gradient(to right top, #337f96, #478a9e, #5a96a7, #6ca1af, #7dadb8); */
+  /* background-image: linear-gradient(to right top, #337f96, #4895a4, #60aab1, #79c0be, #95d6cb); */
+  /* background-image: linear-gradient(to right top, #2a687b, #4d8692, #70a5aa, #95c4c3, #bbe4dd); */
+  background-image: linear-gradient(to right top, #337f96, #5598a6, #76b1b7, #98cbc9, #bbe4dd);
+}
 
-.GoToShopButton {
-  display: flex;
-  justify-content: center;
+.artbox {
+  min-height: 150px;
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
+.artboxtext {
+  color: #F9F8F8;
+  
+
+}
+
+.artboxbutton {
+  /* padding-bottom: 5%; */
+
+}
+
+.GoToShopButton {
+  display: flex;
+  justify-content: center;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 /* END HOME PAGE */
+
+/* ABOUT US */
+.aboutwrapper {
+  /* background-image: url("colourAngle.png"); */
+  /* background-color: #337F96; */
+}
+
+.abouttext {
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: justify;
+}
+/* body {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #cccccc;
+} */
+
+.aboutimage {
+  text-align: center;
+  margin-top: 2%;
+}
+.historytextcolour {
+  background-color: #f9f8f8;
+}
+
+.espimage {
+  text-align: center;
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+/* END ABOUT US */
 
 /* CONTACT US */
 
@@ -75,8 +196,8 @@ body {
   /* contact us message box */
   background-color: #F9F8F8;
 }
-
 /* END CONTACT US */
+
 
 /* SLIDER */
 
@@ -98,5 +219,18 @@ body {
 .login {
   background-color: #E5E5E5;
   padding-top: 2%;
+  padding-bottom: 5%;  
+}
+
+/* This is the "dont have a password sign up now text in Login Form" */
+.nopassword { 
+  margin-top: 10%;
+  /* font-style: italic; */
+}
+
+/* This is the button in Login Form that links to the Register form */
+.LinkToregistrationForm {
+  display: flex;
+  justify-content: center;
   padding-bottom: 5%;
 }

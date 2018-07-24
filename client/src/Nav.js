@@ -115,12 +115,7 @@ class NavMain extends Component {
           {/* NAVBAR STARTS */}
           <Navbar className="NavBar" color="" light expand="md">
             {/* LOGO */}
-            <img
-              src="/images/logo.png"
-              height="60"
-              width="53"
-              alt="ESP Gallery logo"
-            />
+            <a  href="/" ><img src="/images/logo.png"  height="60" witdth="53" alt="ESP Gallery logo" /></a>
             {/* END LOGO */}
 
             {/* NAV STARTS */}
