@@ -3,13 +3,16 @@ import '../index.css'; // Importing from index.css to apply the css styling
 import { Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button } from 'reactstrap';
 
+import ArtCard  from './ArtCard';
+import AboveFooter from './AboveFooter';
 import Footer from './Footer';
+
 
 export default () => (<div>
     <h2 className="PageHeader">Gallery Shop stuff</h2>
     
 
- <div>
+ {/* <div>
       <Card className="artcard">
         <CardImg top width="100%" src="/images/LouSteer.jpg" alt="Card image cap" />
         <CardBody>
@@ -19,10 +22,10 @@ export default () => (<div>
           <Button>Button</Button>
         </CardBody>
       </Card>
-    </div>
+    </div> */}
 
-
-
+    < ArtCard />
+    <AboveFooter />
     <Footer /> 
   
     </div>
