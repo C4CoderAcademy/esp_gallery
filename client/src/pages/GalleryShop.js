@@ -12,7 +12,9 @@ import Footer from './Footer';
 
 export default () => (<div>
     <h2 className="PageHeader">Gallery Shop</h2>
-    <Container className="row1">
+
+    {/* Old bootstrap */}
+    {/* <Container className="row1">
         <Row>
           <Col><Card className="artcard1">
         <CardImg top width="100%" src="/images/LouSteer.jpg" alt="image of reclineing nude" />
@@ -59,9 +61,9 @@ export default () => (<div>
         </CardBody>
       </Card></Col>
         </Row>
-        </Container>
+        </Container> */}
         
-    {/* < ArtCard /> */}
+    < ArtCard />
     <AboveFooter />
     <Footer /> 
   

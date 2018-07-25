@@ -229,7 +229,9 @@ body {
 /* END LOGIN FORM */
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 2400px) {
+
+
+/* @media only screen and (max-width: 2400px) {
   .artcard {
         height: auto;
         width: 10%;
@@ -255,6 +257,6 @@ body {
         width: 100%;
   }
 }
-
+ */
 
 
