@@ -12,7 +12,11 @@
 
 #search {
     background-color: #f9f8f8;
-    width: 200px;
+    width: 150px;
+}
+
+.searchbox {
+    text-align: right;
 }
 
 .logIn a {
@@ -25,15 +29,12 @@
     text-decoration: none;
 }
 
-/* this is here to fix the left shift that occures to Login onclick */
-
-/* .logIn  a:active {
-    color: yellow;
-}
-   */
-
 .magnifying {
     margin-right: 1%;
+    margin-left: 1%;
+}
+
+.cart {
     margin-left: 1%;
 }
 
