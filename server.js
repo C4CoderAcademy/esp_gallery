@@ -22,6 +22,9 @@ mongoose
   .catch(err => console.log(err));
 
 // API calls
+//app.get('/', function(req, res){
+//  res.render('App.js', { root: __dirname + "/client/src" } );
+//});
 
 // Passport middleware
 app.use(passport.initialize());
