@@ -129,6 +129,10 @@ body {
 }
 /* END HOME PAGE */
 
+/* GALLERY SHOP */
+.bottomshoppage{
+  padding-top: 5%;
+}
 /* ABOUT US */
 .aboutwrapper {
   /* background-image: url("colourAngle.png"); */
