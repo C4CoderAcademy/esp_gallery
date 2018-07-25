@@ -6,7 +6,6 @@ body {
 }
 
 /* FOOTER */
-
 .footerwrapper {
   background-color: #444444;
   color: #F9F8F8;
@@ -93,7 +92,7 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-/* HOME PAGE */
+/* ABOVE FOOTER */
 .areyouartistbox {
   /* background-image: linear-gradient(to right top, #337f96, #478a9e, #5a96a7, #6ca1af, #7dadb8); */
   /* background-image: linear-gradient(to right top, #337f96, #4895a4, #60aab1, #79c0be, #95d6cb); */
@@ -125,12 +124,14 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-/* END HOME PAGE */
+/* END ABOVE FOOTER */
 
 /* GALLERY SHOP */
 .bottomshoppage{
   padding-top: 5%;
 }
+/* END GALLERY SHOP */
+
 /* ABOUT US */
 .aboutwrapper {
   /* background-image: url("colourAngle.png"); */
@@ -202,16 +203,33 @@ body {
 
 /* PRODUCT PAGE */
 .producttext {
-  margin-right: 20%;
-  margin-left: 20%;
-  text-align: justify;
+  /* margin-right: 10%;
+  margin-left: 90%;
+ 
+  width: 50px;
+  height: auto; */
 }
 
-.productimage {
-  width: 50px;
-  height: 50px;
-  /* position: relative; */
+.productcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* text in the row */
+.produnctTectCol { 
   text-align: center;
+}
+
+/* targeting the col the image is in */
+.produnctImgCol {
+  text-align: center;
+}
+/* targeting the image in the row */
+#productpageimage {
+  width: 80%;
+  height: auto;
+  size: 10px;
+  /* margin-left: 20%; */
 }
 /* END PRODUCT PAGE */
 
@@ -220,13 +238,13 @@ body {
   max-height: 20%;
 }
 
-.legend1 {
-  background-color: aqua;
-  max-height: 4%;
+.legend {
+  background-color: #ffffff;
+  max-height: 10%;
 }
 /* END SLIDER */
 
-/* FORMS */
+
 
 /* LOGIN FORM */
 .login {

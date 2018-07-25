@@ -16,23 +16,28 @@ class ProductPage extends React.Component {
         return (
             <div>
                 <h2 className="PageHeader"></h2>
-                <Container>
-                    <Row>
-                        <Col xs="6"><img src="/images/LouSteer.jpg" /></Col>
-                        <Col xs="6">.col-6</Col>
+                
+                <Container className="productcontainer">
+                    <Row className="productcontainer">
+                        <Col className="produnctImgCol" md="6"><img src="/images/LouSteer.jpg" id="productpageimage" /></Col>
+                        <Col className="produnctTectCol" md="6"><h2>Saturn Reclining</h2>
+                            <h5 className="artistName">Lou Steer</h5><br />
+                            <h4 className="artistPrice">AUD $280</h4><br />
+                            <h5 className="artistCatagory">Oil on Canvas</h5><br />
+                            <h5>In Stock</h5>
+                            <span className="GoToShopButton">   
+                                <a href="/shop/"><Button color="secondary" size="lg">Buy Now</Button></a>
+                            </span>
+                        </Col>
                     </Row>
                 </Container>
-                    
-                   
-                     {/* <div className="productimage"> */}
-                    {/* <div className="productimage"><img src="/images/LouSteer.jpg" /></div> */}
-                  
-                
-               
-               
+
+                 
+
+                <Footer /> 
             </div>
         );
     }
 };
- 
+         
 export default ProductPage;

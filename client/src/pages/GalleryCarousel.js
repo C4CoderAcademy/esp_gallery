@@ -44,6 +44,10 @@ class GalleryCarousel extends React.Component {
                     <img src="/images/Chantal-Corey2.jpg" />
                     <p className="legend"><a href="/product/"target="_blank">Face Illustration</a></p>
                 </div>
+                <div>
+                    <img src="/images/HeaderFBpage.jpg" />
+                    <p className="legend"><a href="/product/"target="_blank">Morpheus</a></p>
+                </div>
             </Carousel>
         );
     }
