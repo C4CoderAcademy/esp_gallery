@@ -12,7 +12,6 @@ body {
   color: #F9F8F8;
 }
 
-
 @-webkit-keyframes pulse {
   25% {
     -webkit-transform: scale(1.2);
@@ -115,13 +114,10 @@ body {
 
 .artboxtext {
   color: #F9F8F8;
-  
-
 }
 
 .artboxbutton {
   /* padding-bottom: 5%; */
-
 }
 
 .GoToShopButton {
@@ -133,6 +129,10 @@ body {
 }
 /* END HOME PAGE */
 
+/* GALLERY SHOP */
+.bottomshoppage{
+  padding-top: 5%;
+}
 /* ABOUT US */
 .aboutwrapper {
   /* background-image: url("colourAngle.png"); */
@@ -140,8 +140,8 @@ body {
 }
 
 .abouttext {
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-right: 20%;
+  margin-left: 20%;
   text-align: justify;
 }
 /* body {
@@ -165,7 +165,6 @@ body {
 /* END ABOUT US */
 
 /* CONTACT US */
-
 .ContactForm {
   margin-right: 15%;
   margin-left: 15%;
@@ -200,7 +199,6 @@ body {
 
 
 /* SLIDER */
-
 .GalleryCarousel {
   max-height: 20%;
 }
@@ -209,13 +207,11 @@ body {
   background-color: aqua;
   max-height: 4%;
 }
-
 /* END SLIDER */
 
 /* FORMS */
 
 /* LOGIN FORM */
-
 .login {
   background-color: #E5E5E5;
   padding-top: 2%;
@@ -234,3 +230,37 @@ body {
   justify-content: center;
   padding-bottom: 5%;
 }
+/* END LOGIN FORM */
+
+/* MEDIA QUERIES */
+
+
+/* @media only screen and (max-width: 2400px) {
+  .artcard {
+        height: auto;
+        width: 10%;
+  }
+}
+@media only screen and (max-width: 1919px) {
+  .artcard {
+        height: auto;
+        width: 20%;
+  }
+}
+
+@media only screen and (max-width: 719px) {
+  .artcard {
+        height: auto;
+        width: 50%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .artcard {
+        height: auto;
+        width: 100%;
+  }
+}
+ */
+
+
