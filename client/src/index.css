@@ -4,6 +4,11 @@ body {
   font-family: sans-serif;
   font-family: 'Libre Franklin', sans-serif !important;
 }
+/* ARTCARD */
+.price {
+  color: #337f96;
+}
+/* END ARTCARD */
 
 /* FOOTER */
 .footerwrapper {
@@ -234,10 +239,6 @@ body {
 /* END PRODUCT PAGE */
 
 /* SLIDER */
-.GalleryCarousel {
-  max-height: 20%;
-}
-
 .legend {
   background-color: #ffffff;
   max-height: 10%;
