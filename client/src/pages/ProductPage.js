@@ -17,11 +17,15 @@ class ProductPage extends React.Component {
             <div>
                 <h2 className="PageHeader"></h2>
                 <Container>
+                    <Row>
+                        <Col xs="6"><img src="/images/LouSteer.jpg" /></Col>
+                        <Col xs="6">.col-6</Col>
+                    </Row>
                 </Container>
                     
                    
-        
-                    <div className="productimage"><img src="/images/LouSteer.jpg" /></div>
+                     {/* <div className="productimage"> */}
+                    {/* <div className="productimage"><img src="/images/LouSteer.jpg" /></div> */}
                   
                 
                

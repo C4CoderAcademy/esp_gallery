@@ -16,18 +16,33 @@ class GalleryCarousel extends React.Component {
         return (
             <Carousel>
                 <div>
-                    <img src="/images/MarkElliot.jpg" />
-                    <p className="legend"><a href="https://casscass.github.io./" target="_blank">Legend 1</a></p>
+                    <img src="/images/LouSteer.jpg" />
+                    <p className="legend"><a href="/product/"target="_blank">Reclining Saturn</a></p>
                 </div>
                 <div>
-                    <img src="/images/MarkElliot.jpg" />
-                    <p className="legend">Little Sparrows</p>
-                    {/* <p className="legend">{artworkName}</p> */}
+                    <img src="/images/BunyipSkull.jpg" />
+                    <p className="legend"><a href="/product/"target="_blank">Bunyip Skull</a></p>
                 </div>
                
                 <div>
                     <img src="/images/MarkElliott-whiteIbis.jpg" />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend"><a href="/product/"target="_blank">White Ibis</a></p>
+                </div>
+                <div>
+                    <img src="/images/MarkElliot.jpg" />
+                    <p className="legend"><a href="/product/"target="_blank">Little Sparrows</a></p>
+                </div>
+                <div>
+                    <img src="/images/Rachael-Hallinan.jpg" />
+                    <p className="legend"><a href="/product/"target="_blank">Mist Memories</a></p>
+                </div>
+                <div>
+                    <img src="/images/Chantal-Corey.jpg" />
+                    <p className="legend"><a href="/product/"target="_blank">Faces</a></p>
+                </div>
+                <div>
+                    <img src="/images/Chantal-Corey2.jpg" />
+                    <p className="legend"><a href="/product/"target="_blank">Face Illustration</a></p>
                 </div>
             </Carousel>
         );
