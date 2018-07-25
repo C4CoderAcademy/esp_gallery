@@ -229,22 +229,32 @@ body {
 /* END LOGIN FORM */
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 2400px) {
   .artcard {
-  
         height: auto;
-        width: 50px;
-   
+        width: 10%;
+  }
+}
+@media only screen and (max-width: 1919px) {
+  .artcard {
+        height: auto;
+        width: 20%;
   }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  /* Styles */
+@media only screen and (max-width: 719px) {
+  .artcard {
+        height: auto;
+        width: 50%;
   }
+}
 
-  /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-  /* Styles */
+@media only screen and (max-width: 479px) {
+  .artcard {
+        height: auto;
+        width: 100%;
   }
-  
+}
+
+
+

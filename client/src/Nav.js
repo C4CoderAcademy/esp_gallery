@@ -110,7 +110,7 @@ class NavMain extends Component {
                 </a>
               </span>
             </FormGroup>
-          </div>
+          </div><hr />
 
           {/* NAVBAR STARTS */}
           <Navbar className="NavBar" color="" light expand="md">
