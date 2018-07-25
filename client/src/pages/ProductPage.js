@@ -22,7 +22,7 @@ class ProductPage extends React.Component {
                         <Col className="produnctImgCol" md="6"><img src="/images/LouSteer.jpg" id="productpageimage" /></Col>
                         <Col className="produnctTectCol" md="6"><h2>Saturn Reclining</h2>
                             <h5 className="artistName">Lou Steer</h5><br />
-                            <h4 className="artistPrice">AUD $280</h4><br />
+                            <h4 className="price">AUD $280</h4><br />
                             <h5 className="artistCatagory">Oil on Canvas</h5><br />
                             <h5>In Stock</h5>
                             <span className="GoToShopButton">   

@@ -14,7 +14,7 @@ import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 class GalleryCarousel extends React.Component {
     render() {
         return (
-            <Carousel>
+            <Carousel className="h-50">
                 <div>
                     <img src="/images/LouSteer.jpg" />
                     <p className="legend"><a href="/product/"target="_blank">Reclining Saturn</a></p>
