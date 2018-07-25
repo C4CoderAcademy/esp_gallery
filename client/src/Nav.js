@@ -45,7 +45,7 @@ class NavMain extends Component {
     const { isAuthenticated } = this.props.auth;
 
     const authLinks = (
-      <ul className="navbar-nav m1-auto">
+      <ul className="navbar-nav">
         <li className="nav-item logIn">
           <a
             href=""
@@ -59,7 +59,7 @@ class NavMain extends Component {
     );
 
     const guestLinks = (
-      <ul className="navbar-nav ml-auto">
+      <ul className="navbar-nav">
         <a className="nav-item logIn">
           <Link className="nav-link" to="/login">
             Login
@@ -75,30 +75,20 @@ class NavMain extends Component {
           <div className="TopNav">
             {/* SEARCH BOX */}
             <FormGroup className="topnavgroup">
-              <span className="searchbox">
-                <Input
-                  type="search"
-                  name="search"
-                  id="search"
-                  placeholder="Search"
-                />
+              <span className="searchbox"><Input type="search"name="search" id="search"
+                placeholder="Search" />
               </span>
+             
 
               {/* SEARCH ICON */}
-              <span className="magnifying">
-                <MaterialIcon
-                  icon="search"
-                  color="#0007"
-                  className=""
-                  size="medium"
-                />
+              <span className="magnifying"><MaterialIcon icon="search" color="#0007" className="" size="medium"/>
               </span>
 
               {/* Authentication links ternary function */}
               {isAuthenticated ? authLinks : guestLinks}
 
               {/* CART ICON */}
-              <span className="">
+              <span className="cart">
                 <a href="/cart/">
                   {" "}
                   <MaterialIcon
