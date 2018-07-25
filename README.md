@@ -209,6 +209,8 @@ Similar functionality is present for the other input boxes such as email and pas
 
 Testing the navigation flow and links on each page, to external sites (social media) and to forms.
 
+The site was accessed on desktop as well as mobile devices to ensure compatability.
+
 
 Landing Page
     Virtual Gallery
