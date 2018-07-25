@@ -84,11 +84,9 @@ body {
 .footertextlink a {
   color: #F9F8F8
 }
-
 /* END FOOTER */
 
 /* PAGES */
-
 .PageHeader {
   text-align: center;
   color: #444444;
@@ -139,9 +137,13 @@ body {
   /* background-color: #337F96; */
 }
 
+.backgroundcolour {
+  background-image: linear-gradient(to right top, #337f96, #5598a6, #76b1b7, #98cbc9, #bbe4dd);
+  padding-top: 1%;
+}
 .abouttext {
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 18%;
+  margin-left: 18%;
   text-align: justify;
 }
 /* body {
@@ -152,6 +154,7 @@ body {
 .aboutimage {
   text-align: center;
   margin-top: 2%;
+  size: auto;
 }
 .historytextcolour {
   background-color: #f9f8f8;
@@ -197,6 +200,20 @@ body {
 }
 /* END CONTACT US */
 
+/* PRODUCT PAGE */
+.producttext {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: justify;
+}
+
+.productimage {
+  width: 50px;
+  height: 50px;
+  /* position: relative; */
+  text-align: center;
+}
+/* END PRODUCT PAGE */
 
 /* SLIDER */
 .GalleryCarousel {

@@ -11,22 +11,21 @@ import Img from 'react-image'
 export default ({ match }) => (<div>
   
   <div className="aboutwrapper ">  
-    
-    <h2 className="PageHeader">About Us</h2><br />
-      <p className="abouttext" >ESP Gallery opened in Illawarra Road,  Marrickville in September 2009.  Up to its physical closure in           2016,  ESP Gallery showed the work of over 300 local, national and international artists and held 75 exhibitions and events.<br /> <br /> 
-      Highlights include Marrickville Contemporary Art Prize 2011 and 2012, Head On Festival 2010 and 2012, and Sydney Canvas Company Painting Prize 2013. Many ESP alumni have gone on to be finalists and winners of renowned public exhibitions including the Archibald, the Wynn and the Sulman.<br /><br />
-      We are proud of what we have achieved with no government grants and our completely volunteer run organisation!<br /><br /> 
-      ESP Gallery is now evolving into a virtual gallery. We now show quality artworks in a fresh way.</p>
+    <h2 className="PageHeader">Our Story...</h2><br />
+      <div className="backgroundcolour" >
+        <p className="abouttext" >ESP Gallery opened in Illawarra Road,  Marrickville in September 2009.  Up to its physical closure in           2016,  ESP Gallery showed the work of over 300 local, national and international artists and held 75 exhibitions and events.<br     />    <br /> 
+            Highlights include Marrickville Contemporary Art Prize 2011 and 2012, Head On Festival 2010 and 2012, and Sydney Canvas Company Painting Prize 2013. Many ESP alumni have gone on to be finalists and winners of renowned public exhibitions including the Archibald, the Wynn and the Sulman.<br /><br />
+            We are proud of what we have achieved with no government grants and our completely volunteer run organisation!<br /><br /> 
+            ESP Gallery is now evolving into a virtual gallery. We now show quality artworks in a fresh way.</p>
 
-      <div className="aboutimage">
-        <img src="/images/HeadOnOpeninhNight.jpg" /><br />
-        <small>Racheal Ireland,   Lou Steer,  Nicola Baily,  Marilke Loosjes</small>
+          <div className="aboutimage">
+            <img src="/images/HeadOnOpeninhNight.jpg" /><br />
+            <small>Racheal Ireland,   Lou Steer,  Nicola Baily,  Marilke Loosjes</small>
+          </div>
+        <hr />
       </div>
-      
-      
-   
-    <hr />
-    <h2 className="PageHeader">Our History...</h2>
+
+      <h2 className="PageHeader">Our History...</h2>
  
       <div className="historytextcolour"><hr /> 
         <p className="abouttext historytextcolour" > Hell of helvetica chia, swag sed humblebrag cray prism aesthetic meditation shabby chic pabst. Tattooed tousled craft beer banjo elit. Try-hard eu chillwave jean shorts bushwick kombucha coloring book ut. Artisan ennui 90's dolore cupidatat church-key butcher wayfarers culpa bushwick distillery lumbersexual fam unicorn. Narwhal fingerstache YOLO iceland migas bushwick nostrud pitchfork enamel pin la croix eu commodo neutra. Intelligentsia portland in woke lyft.<br /><br />
@@ -34,23 +33,13 @@ export default ({ match }) => (<div>
       
       <div className="espimage">
         <img src="/images/PhotoByOlgaKol.jpg" />
-      </div>
-      <hr />
+      </div><hr />
     </div>
-      
-
-    
-
-        
-   
-
+     
     <AboveFooter />
-    {/* </div> */}
-   
-
     <Footer /> 
   </div>
-  </div>
+</div>
  
 );
 

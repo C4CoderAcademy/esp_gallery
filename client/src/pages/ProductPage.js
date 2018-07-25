@@ -6,6 +6,8 @@ import { Card, CardImg, CardText, CardBody,
 import ArtCard  from './ArtCard';
 import AboveFooter from './AboveFooter';
 import Footer from './Footer';
+import { Container, Row, Col } from 'reactstrap';
+
 
 
 
@@ -13,14 +15,16 @@ class ProductPage extends React.Component {
     render() {
         return (
             <div>
-                <h2 className="PageHeader">Gallery Shop</h2>
-                    <h3 className="PageHeader">A website for Artists to bring there work to you</h3>
+                <h2 className="PageHeader"></h2>
+                <Container>
+                </Container>
                     
-                    <span className="GoToShopButton">   
-                        <a href="/sellart"><Button outline color="info" size="lg">Apply Now</Button></a>
-                    </span>  
-
-                <p>ESP Gallery is here to help show your work to the world. We have years of experiance and are dedicated to showcaseing artist’s work. Your art should be easily accessable by everyone.</p>
+                   
+        
+                    <div className="productimage"><img src="/images/LouSteer.jpg" /></div>
+                  
+                
+               
                
             </div>
         );
