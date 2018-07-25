@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default () => (<div>
-    <h2>This is the Apply To Sell Art Form</h2>
-    <p>Stuff ksdfhg kvhgirt gibuir</p>
+    <h2 className="PageHeader">Apply To Sell Art</h2>
+  
 </div>
 
 );

@@ -32,14 +32,11 @@ export default () => (<div>
                     <Container>
                         <Row className="artbox">
                             <Col className="artboxtext" md="6"><h1>Are you an Artist?</h1></Col>
-                            <Col className="artboxbutton" md="6"><a href="/shop/"><Button  color="info" size="lg">APPLY TO SELL YOUR ART</Button></a></Col>
+                            <Col className="artboxbutton" md="6"><a href="/sellart/"><Button  color="info" size="lg">APPLY TO SELL YOUR ART</Button></a></Col>
                         </Row>
                     </Container>
                     <div className="blockofWhite"></div>
-                </div>
-                        
-                
-                            
+                </div>                    
             </div>
         
     <Footer /> {/* CALLING FOOTER FROM pages/Footer.js AND RENDERING IT ON THIS PAGE */}

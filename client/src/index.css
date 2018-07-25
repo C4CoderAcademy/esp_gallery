@@ -12,7 +12,6 @@ body {
   color: #F9F8F8;
 }
 
-
 @-webkit-keyframes pulse {
   25% {
     -webkit-transform: scale(1.2);
@@ -115,13 +114,10 @@ body {
 
 .artboxtext {
   color: #F9F8F8;
-  
-
 }
 
 .artboxbutton {
   /* padding-bottom: 5%; */
-
 }
 
 .GoToShopButton {
@@ -165,7 +161,6 @@ body {
 /* END ABOUT US */
 
 /* CONTACT US */
-
 .ContactForm {
   margin-right: 15%;
   margin-left: 15%;
@@ -200,7 +195,6 @@ body {
 
 
 /* SLIDER */
-
 .GalleryCarousel {
   max-height: 20%;
 }
@@ -209,13 +203,11 @@ body {
   background-color: aqua;
   max-height: 4%;
 }
-
 /* END SLIDER */
 
 /* FORMS */
 
 /* LOGIN FORM */
-
 .login {
   background-color: #E5E5E5;
   padding-top: 2%;
@@ -234,9 +226,10 @@ body {
   justify-content: center;
   padding-bottom: 5%;
 }
+/* END LOGIN FORM */
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .artcard {
   
         height: auto;
