@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 
 const CLOUDINARY_URL = "https://api.cloudinary.com/v1_1/dxmelc0e6/upload";
 const CLOUDINARY_UPLOAD_PRESET = "espgallery";
@@ -24,6 +24,7 @@ window.onload = function() {
     })
       .then(function(res) {
         console.log(res);
+        imgPreview.src = res.data.secure_url;
       })
       .catch(function(err) {
         console.error(err);

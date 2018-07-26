@@ -22,8 +22,8 @@ mongoose
   .catch(err => console.log(err));
 
 // API calls
-app.get('/', function(req, res){
-  res.render('App.js', { root: __dirname + "/client/src" } );
+app.get("/", function(req, res) {
+  res.render("App.js", { root: __dirname + "/client/src" });
 });
 
 // Passport middleware
@@ -34,8 +34,6 @@ require("./config/passport")(passport);
 
 // Use Routes
 app.use("/api/routes/users", users);
-
-
 
 if (process.env.NODE_ENV === "production") {
   // Serve any static files
@@ -48,24 +46,24 @@ if (process.env.NODE_ENV === "production") {
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
-
 // cloudinary
 
-var express = require('express');
-var mustacheExpress = require('mustache-express');
-var path = require('path');
-var app = express();
+// var express = require('express');
+// var mustacheExpress = require('mustache-express');
+// var path = require('path');
+// var app = express();
 
 // Middleware
-app.engine('html', mustacheExpress());
-app.set('view engine', 'mustache');
-app.use('/public', express.static('public'));
+// app.engine("html", mustacheExpress());
+// app.set("view engine", "mustache");
+app.use("/public", express.static("public"));
 
 // Routes
-app.get('/', function(req, res) {
-  res.render('index.html');
+app.get("/src/components/admin", function(req, res) {
+  res.render("admin.js");
+  res.render("image.html");
 });
 
-app.listen(1337, function() {
-  console.log('Running on port 1337');
-});
+// app.listen(3000, function() {
+//   console.log("Running on port 3000");
+// });

@@ -28,7 +28,7 @@ class Login extends Component {
   componentWillReceiveProps(nextProps) {
     // This should redirect to the homepage once the user is authenticated
     if (nextProps.auth.isAuthenticated) {
-      this.props.history.push("/");
+      this.props.history.push("/dashboard");
     }
 
     if (nextProps.errors) {

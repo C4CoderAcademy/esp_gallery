@@ -20,6 +20,7 @@ import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import Footer from "./pages/Footer"; // Imports Footer.js into App.js
 import TermsOfService from "./pages/TermsOfService";
+import Dashboard from "./pages/Dashboard";
 
 // Check for token
 if (localStorage.jwtToken) {
@@ -33,7 +34,7 @@ if (localStorage.jwtToken) {
 
   // Check for expired token
   store.dispatch(logoutUser());
-  // TODO: Clear current profile
+  // TODO: Clear current profile (not MVP)
 
   // Redirect to home
   window.location.href = "/";
@@ -77,6 +78,7 @@ class App extends Component {
             <Route exact path="/contactus" component={ContactUs} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
+            <Route exact path="/dashboard" component={Dashboard} />
             {/* <Route exact path="/cart" component={Cart} /> */}
             {/* <Route exact path="/product" component={ProductPage} />  */}
             {/* <Route exact path="/footer" component={Footer} /> */}

@@ -1,46 +1,59 @@
-import React, { Component } from 'react'
-import {Redirect} from 'react-router-dom'
-import '../App.css'
-import Navigation from '../components/navbar'
-import { render } from 'react-dom'
-const cloudinary = require('cloudinary')
+import React, { Component } from "react";
+import { Redirect } from "react-router-dom";
+import "../App.css";
+import Navigation from "../components/navbar";
+import { render } from "react-dom";
+import cloudinary from "cloudinary";
 
-require('dotenv').config()
-
+require("dotenv").config();
 
 // Set a constant of invoice to be the invoice ID that was passed in from the InvoiceForm page.
-const invoice = ''
+const invoice = "";
 export default class InvoiceUpload extends Component {
-    handleUploadClick = (event) => {
-      window.cloudinary.openUploadWidget({ cloud_name: 'dxmelc0e6', upload_preset: 'espgallery', public_id: `${artwork}`},
-        function(error, result) { console.log(error, result) });
-    }
-      render () {
-          return (
-            <div>
-              <Navigation />
-                  <form>
-                  <a onClick={this.handleUploadClick} id='upload_widget_opener'>Upload Artwork Image</a>
-                  </form>
-            </div>
-    )
+  handleUploadClick = event => {
+    window.cloudinary.openUploadWidget(
+      {
+        cloud_name: "dxmelc0e6",
+        upload_preset: "espgallery",
+        public_id: `${artwork}`
+      },
+      function(error, result) {
+        console.log(error, result);
+      }
+    );
+  };
+  render() {
+    return (
+      <div>
+        <Navigation />
+        <form>
+          <a onClick={this.handleUploadClick} id="upload_widget_opener">
+            Upload Artwork Image
+          </a>
+        </form>
+      </div>
+    );
   }
 }
 
 // Cloudinary
 
-const cloudName = 'dxmelc0e6';
-const unsignedUploadPreset = 'espgallery';
+const cloudName = "dxmelc0e6";
+const unsignedUploadPreset = "espgallery";
 
 var fileSelect = document.getElementById("fileSelect"),
   fileElem = document.getElementById("fileElem");
 
-fileSelect.addEventListener("click", function(e) {
-  if (fileElem) {
-    fileElem.click();
-  }
-  e.preventDefault(); // prevent navigation to "#"
-}, false);
+fileSelect.addEventListener(
+  "click",
+  function(e) {
+    if (fileElem) {
+      fileElem.click();
+    }
+    e.preventDefault(); // prevent navigation to "#"
+  },
+  false
+);
 
 // ************************ Drag and drop ***************** //
 function dragenter(e) {
@@ -73,16 +86,16 @@ function uploadFile(file) {
   var url = `https://api.cloudinary.com/v1_1/${cloudName}/upload`;
   var xhr = new XMLHttpRequest();
   var fd = new FormData();
-  xhr.open('POST', url, true);
-  xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+  xhr.open("POST", url, true);
+  xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
 
   // Reset the upload progress bar
-   document.getElementById('progress').style.width = 0;
-  
+  document.getElementById("progress").style.width = 0;
+
   // Update progress (can be used to show progress indicator)
   xhr.upload.addEventListener("progress", function(e) {
     var progress = Math.round((e.loaded * 100.0) / e.total);
-    document.getElementById('progress').style.width = progress + "%";
+    document.getElementById("progress").style.width = progress + "%";
 
     console.log(`fileuploadprogress data.loaded: ${e.loaded},
   data.total: ${e.total}`);
@@ -95,18 +108,18 @@ function uploadFile(file) {
       // https://res.cloudinary.com/cloudName/image/upload/v1483481128/public_id.jpg
       var url = response.secure_url;
       // Create a thumbnail of the uploaded image, with 150px width
-      var tokens = url.split('/');
-      tokens.splice(-2, 0, 'w_150,c_scale');
+      var tokens = url.split("/");
+      tokens.splice(-2, 0, "w_150,c_scale");
       var img = new Image(); // HTML5 Constructor
-      img.src = tokens.join('/');
+      img.src = tokens.join("/");
       img.alt = response.public_id;
-      document.getElementById('gallery').appendChild(img);
+      document.getElementById("gallery").appendChild(img);
     }
   };
 
-  fd.append('upload_preset', unsignedUploadPreset);
-  fd.append('tags', 'browser_upload'); // Optional - add tag for image admin in Cloudinary
-  fd.append('file', file);
+  fd.append("upload_preset", unsignedUploadPreset);
+  fd.append("tags", "browser_upload"); // Optional - add tag for image admin in Cloudinary
+  fd.append("file", file);
   xhr.send(fd);
 }
 
