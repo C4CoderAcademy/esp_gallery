@@ -1,23 +1,40 @@
-
+## TABLE OF CONTENTS
 
 [1. BUSINESS PROBLEM and Solution](#businessproblem)
+
 [2. Project Links](#links)
+
 [3. Client Communication](#client)
+
 [4. Application Design](#design)
+
 [5. Updated workflow diagram of user journeys](#workflow)
 [6. Project plan](#ProjectPlan)
+
 [7. Project management](#project)
+
 [8. Information gathering- project requirements, constraints,risks](#info)
+
 [9. Project charter/preliminary statement of scope](#charter)
+
 [10. Client satisfaction and sign-off](#satisfaction)
+
 [11. Prepare project work breakdown and schedule](#breakdown)
+
 [12. Allocate roles and responsibilities to team members, based on project solution requirements](#breakdown)
+
 [13.Monitor each other’s assigned work](#breakdown)
+
 [14. Reassess ongoing project scope changes, risks and issues](#scope)
+
 [15. CONSTRAINTS AND RISKS](#constraints)
+
 [16. Post project review](#review)
+
 [17. TECHNOLOGY STACK](#stack)
+
 [18. TESTING](#tests)
+
 [19. Code review](#code)
 
 <a name="businessproblem"/>
@@ -54,12 +71,17 @@ The app will fulfill the client needs, as described in question 2 by:
 Please see list below for links to all project information. 
 
 Github repo: [here](https://github.com/C4CoderAcademy/esp_gallery)
+
 In caselink breaks: https://github.com/C4CoderAcademy/esp_gallery
 
+
 Deployed App: [here](https://espgalleries.herokuapp.com/)
+
 In caselink breaks: https://espgalleries.herokuapp.com/
 
+
 Trello: [here](https://trello.com/b/NZm11i1D/c4-assignment)
+
 In caselink breaks: https://trello.com/b/NZm11i1D/c4-assignment
 
 
