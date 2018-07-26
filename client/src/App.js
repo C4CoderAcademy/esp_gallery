@@ -16,6 +16,7 @@ import GalleryShop from "./pages/GalleryShop"; // Imports GalleryShop into App.j
 import SellArt from "./pages/SellArt"; // Imports SellArt.js into App.js
 import About from "./pages/About"; // Imports About.js into App.js
 import ContactUs from "./forms/ContactUs"; // Imports ContactUs.js into App.js
+import ProductPage from "./pages/ProductPage";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import Footer from "./pages/Footer"; // Imports Footer.js into App.js
@@ -80,14 +81,9 @@ class App extends Component {
             <Route exact path="/login" component={Login} />
             <Route exact path="/dashboard" component={Dashboard} />
             {/* <Route exact path="/cart" component={Cart} /> */}
-            {/* <Route exact path="/product" component={ProductPage} />  */}
+            <Route exact path="/product" component={ProductPage} /> 
             {/* <Route exact path="/footer" component={Footer} /> */}
 
-            {/* cloudinary */}
-            {/* <Route path='/image/upload' render={
-  +             () => (
-  +               <ImageUpload/>
-  +             )}/> */}
           </div>
         </Router>
       </Provider>

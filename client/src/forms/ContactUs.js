@@ -29,7 +29,7 @@ export default class ContactForm extends React.Component {
 
                      <span className="ContactUsSubmitButton">   
                      <Button>Submit</Button>
-                     </span>  
+                    </span>  
                   </Form>
             </div>
         </div>

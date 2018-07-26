@@ -45,7 +45,7 @@ class NavMain extends Component {
     const { isAuthenticated } = this.props.auth;
 
     const authLinks = (
-      <ul className="navbar-nav m1-auto">
+      <ul className="navbar-nav">
         <li className="nav-item logIn">
           <a
             href=""
@@ -59,7 +59,7 @@ class NavMain extends Component {
     );
 
     const guestLinks = (
-      <ul className="navbar-nav ml-auto">
+      <ul className="navbar-nav">
         <a className="nav-item logIn">
           <Link className="nav-link" to="/login">
             Login
@@ -75,30 +75,20 @@ class NavMain extends Component {
           <div className="TopNav">
             {/* SEARCH BOX */}
             <FormGroup className="topnavgroup">
-              <span className="searchbox">
-                <Input
-                  type="search"
-                  name="search"
-                  id="search"
-                  placeholder="Search"
-                />
+              <span className="searchbox"><Input type="search"name="search" id="search"
+                placeholder="Search" />
               </span>
+             
 
               {/* SEARCH ICON */}
-              <span className="magnifying">
-                <MaterialIcon
-                  icon="search"
-                  color="#0007"
-                  className=""
-                  size="medium"
-                />
+              <span className="magnifying"><MaterialIcon icon="search" color="#0007" className="" size="medium"/>
               </span>
 
               {/* Authentication links ternary function */}
               {isAuthenticated ? authLinks : guestLinks}
 
               {/* CART ICON */}
-              <span className="">
+              <span className="cart">
                 <a href="/cart/">
                   {" "}
                   <MaterialIcon
@@ -110,17 +100,12 @@ class NavMain extends Component {
                 </a>
               </span>
             </FormGroup>
-          </div>
+          </div><hr />
 
           {/* NAVBAR STARTS */}
           <Navbar className="NavBar" color="" light expand="md">
             {/* LOGO */}
-            <img
-              src="/images/logo.png"
-              height="60"
-              width="53"
-              alt="ESP Gallery logo"
-            />
+            <a  href="/" ><img src="/images/logo.png"  height="60" witdth="53" alt="ESP Gallery logo" /></a>
             {/* END LOGO */}
 
             {/* NAV STARTS */}
@@ -140,28 +125,13 @@ class NavMain extends Component {
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                    GitHub
-                  </NavLink>
+                <NavLink href="/about/">About Us</NavLink>
                 </NavItem>
-
-                {/* NAV DROPDOWN */}
-                {/* <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    <NavLink href="/about/">About Us</NavLink>
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem>Our Story</DropdownItem>
-                    <DropdownItem>Our History</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>Reset</DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown> */}
-                {/* END NAV DROPDOWN */}
-
+                
                 <NavItem>
                   <NavLink href="/contactus/">Contact Us</NavLink>
                 </NavItem>
+                
               </Nav>
             </Collapse>
           </Navbar>

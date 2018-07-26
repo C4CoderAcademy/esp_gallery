@@ -99,7 +99,7 @@ class Login extends Component {
                     Dont have a password ?
                   </p>
                   <span className="LinkToregistrationForm">
-                    <Button href="/Register" target="_blank">
+                    <Button href="/Register">
                       Sign Up Now
                     </Button>
                   </span>
