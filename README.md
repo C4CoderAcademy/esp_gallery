@@ -173,10 +173,12 @@ The following project charter was signed-off by the client by email (originally 
 ## Client satisfaction and sign-off
 
 To ensure the client was satisfied with the quality of our work and service provided, we created a final project sign-off/ questionnaire document. The client tested all the functionality on both computer and mobile, and signed off on the finished product(verbally).  The final interaction as well as the rest of the client communication can be found here(same link as above).
-
+ff
 Client interactions: ![Client](https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions)
-
+ff
 in case the hyperlink breaks here is the url: https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions.
+ff
+
 
 
 
