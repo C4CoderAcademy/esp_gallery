@@ -1,23 +1,40 @@
-
+## TABLE OF CONTENTS
 
 [1. BUSINESS PROBLEM and Solution](#businessproblem)
+
 [2. Project Links](#links)
+
 [3. Client Communication](#client)
+
 [4. Application Design](#design)
+
 [5. Updated workflow diagram of user journeys](#workflow)
 [6. Project plan](#ProjectPlan)
+
 [7. Project management](#project)
+
 [8. Information gathering- project requirements, constraints,risks](#info)
+
 [9. Project charter/preliminary statement of scope](#charter)
+
 [10. Client satisfaction and sign-off](#satisfaction)
+
 [11. Prepare project work breakdown and schedule](#breakdown)
+
 [12. Allocate roles and responsibilities to team members, based on project solution requirements](#breakdown)
+
 [13.Monitor each other’s assigned work](#breakdown)
+
 [14. Reassess ongoing project scope changes, risks and issues](#scope)
+
 [15. CONSTRAINTS AND RISKS](#constraints)
+
 [16. Post project review](#review)
+
 [17. TECHNOLOGY STACK](#stack)
+
 [18. TESTING](#tests)
+
 [19. Code review](#code)
 
 <a name="businessproblem"/>
@@ -53,11 +70,21 @@ The app will fulfill the client needs, as described in question 2 by:
 
 Please see list below for links to all project information. 
 
-Github repo: ![GIT](https://github.com/C4CoderAcademy/esp_gallery)
+Github repo: [here](https://github.com/C4CoderAcademy/esp_gallery)
 
-Deployed App: ![ESP Galleries](https://espgalleries.herokuapp.com/)
+Github in case link breaks: https://github.com/C4CoderAcademy/esp_gallery
 
-Trello: ![Trello](https://trello.com/b/NZm11i1D/c4-assignment)
+
+Deployed App: [here](https://espgalleries.herokuapp.com/)
+
+App in case link breaks: https://espgalleries.herokuapp.com/
+
+
+Trello: [here](https://trello.com/b/NZm11i1D/c4-assignment)
+
+Trello in case link breaks: https://trello.com/b/NZm11i1D/c4-assignment
+
+
 
 ---
 ---
@@ -92,7 +119,8 @@ Review the conceptual design with the client and edit based on their feedback:
 ## Updated workflow diagram of user journeys
 Due to rescoping, the workflow diagram has changed and is now as follows:
 
-![Flowchart](https://github.com/casscass/esp_gallery/blob/develop/README-images/EspFlowchart DiagramUpdate2.jpg)
+![flowchart](https://github.com/casscass/esp_gallery/blob/develop/README-images/EspFlowchart-DiagramUpdate2.jpg)
+
 
 
 ---
@@ -174,7 +202,9 @@ The following project charter was signed-off by the client by email (originally 
 
 To ensure the client was satisfied with the quality of our work and service provided, we created a final project sign-off/ questionnaire document. The client tested all the functionality on both computer and mobile, and signed off on the finished product(verbally).  The final interaction as well as the rest of the client communication can be found here(same link as above).
 
-Client interactions: ![Client](https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions)
+Client interactions: [here](https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions)
+
+In case the hyperlink breaks here is the url: https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions.
 
 
 ---
