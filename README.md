@@ -54,10 +54,13 @@ The app will fulfill the client needs, as described in question 2 by:
 Please see list below for links to all project information. 
 
 Github repo: [here](https://github.com/C4CoderAcademy/esp_gallery)
+In caselink breaks: https://github.com/C4CoderAcademy/esp_gallery
 
 Deployed App: [here](https://espgalleries.herokuapp.com/)
+In caselink breaks: https://espgalleries.herokuapp.com/
 
 Trello: [here](https://trello.com/b/NZm11i1D/c4-assignment)
+In caselink breaks: https://trello.com/b/NZm11i1D/c4-assignment
 
 
 
