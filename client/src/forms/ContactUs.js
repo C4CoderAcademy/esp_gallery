@@ -9,8 +9,8 @@ export default class ContactForm extends React.Component {
   
   render() {
       return (
-          <div><h2 className="PageHeader">Contact form</h2>
-              <div className="ContactFormBackground">
+          <div><h2 className="PageHeader">Contact Us</h2>
+              <div className="FormBackground">
                 <Form className="ContactForm">
                     <FormGroup>
                     <Label for="exampleEmail"></Label>
@@ -18,16 +18,18 @@ export default class ContactForm extends React.Component {
                     </FormGroup>
                     
                     <FormGroup>
-                    <Label for="exampleName">Name</Label>
+                    <Label for="exampleName"></Label>
                     <Input type="name" name="name" id="exampleName" placeholder="Your name" />
                     </FormGroup>
                     
                     <FormGroup>
-                    <Label for="exampleMessage">Message</Label>
+                    <Label for="exampleMessage"></Label>
                     <Input type="textarea" name="message" id="exampleMessage" placeholder="Your message"/>
                     </FormGroup>
 
-                    <Button className="ContactUsSubmitButton" >Submit</Button>
+                     <span className="ContactUsSubmitButton">   
+                     <Button>Submit</Button>
+                    </span>  
                   </Form>
             </div>
         </div>
