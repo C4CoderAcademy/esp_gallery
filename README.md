@@ -178,6 +178,8 @@ Client interactions: ![Client](https://c4coderacademy.atlassian.net/wiki/spaces/
 
 in case the hyperlink breaks here is the url: https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions.
 
+
+
 ---
 <a name=“breakdown”/>
 
