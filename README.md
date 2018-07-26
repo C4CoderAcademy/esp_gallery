@@ -92,7 +92,7 @@ Review the conceptual design with the client and edit based on their feedback:
 ## Updated workflow diagram of user journeys
 Due to rescoping, the workflow diagram has changed and is now as follows:
 
-![flowchart](/Users/casska/Desktop/esp_gallery/README-images/EspFlowchart-DiagramUpdate2.jpg)
+![flowchart](https://github.com/casscass/esp_gallery/blob/develop/README-images/EspFlowchart-DiagramUpdate2.jpg)
 
 
 
