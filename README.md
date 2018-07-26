@@ -53,11 +53,13 @@ The app will fulfill the client needs, as described in question 2 by:
 
 Please see list below for links to all project information. 
 
-Github repo: ![GIT](https://github.com/C4CoderAcademy/esp_gallery)
+Github repo: [here](https://github.com/C4CoderAcademy/esp_gallery)
 
-Deployed App: ![ESP Galleries](https://espgalleries.herokuapp.com/)
+Deployed App: [here](https://espgalleries.herokuapp.com/)
 
-Trello: ![Trello](https://trello.com/b/NZm11i1D/c4-assignment)
+Trello: [here](https://trello.com/b/NZm11i1D/c4-assignment)
+
+
 
 ---
 ---
@@ -175,12 +177,9 @@ The following project charter was signed-off by the client by email (originally 
 
 To ensure the client was satisfied with the quality of our work and service provided, we created a final project sign-off/ questionnaire document. The client tested all the functionality on both computer and mobile, and signed off on the finished product(verbally).  The final interaction as well as the rest of the client communication can be found here(same link as above).
 
-Client interactions: ![Client](https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions)
+Client interactions: [here](https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions)
 
-in case the hyperlink breaks here is the url: https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions.
-
-
-
+In case the hyperlink breaks here is the url: https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions.
 
 
 ---
