@@ -176,6 +176,7 @@ To ensure the client was satisfied with the quality of our work and service prov
 
 Client interactions: ![Client](https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions)
 
+in case the hyperlink breaks here is the url: https://c4coderacademy.atlassian.net/wiki/spaces/ES/pages/622605/Client+Interactions.
 
 ---
 <a name=“breakdown”/>
