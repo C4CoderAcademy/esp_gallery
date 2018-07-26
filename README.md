@@ -72,17 +72,17 @@ Please see list below for links to all project information.
 
 Github repo: [here](https://github.com/C4CoderAcademy/esp_gallery)
 
-Github in caselink breaks: https://github.com/C4CoderAcademy/esp_gallery
+Github in case link breaks: https://github.com/C4CoderAcademy/esp_gallery
 
 
 Deployed App: [here](https://espgalleries.herokuapp.com/)
 
-App in caselink breaks: https://espgalleries.herokuapp.com/
+App in case link breaks: https://espgalleries.herokuapp.com/
 
 
 Trello: [here](https://trello.com/b/NZm11i1D/c4-assignment)
 
-Trello in caselink breaks: https://trello.com/b/NZm11i1D/c4-assignment
+Trello in case link breaks: https://trello.com/b/NZm11i1D/c4-assignment
 
 
 
