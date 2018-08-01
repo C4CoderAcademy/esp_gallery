@@ -1,37 +1,48 @@
 /* TOP NAV */
-#search {
-    background-color: #f9f8f8;
-    width: 200px;
-}
-   
-.searchgroup {
+
+.topnavgroup {
     display: flex;
     justify-content: flex-end;
 }
 
 .TopNav {
-    margin-right:2%;
+    margin-right: 2%;
     margin-top: 0.5%;
+}
+
+#search {
+    background-color: #f9f8f8;
+    width: 150px;
+}
+
+.searchbox {
+    text-align: right;
 }
 
 .logIn a {
     margin-right: 50%;
-    color: #4444;
-  }
+    color: #0007;
+}
 
-  .logIn a:hover {
-    margin-right: 1%;
-    color: purple;
-  }
-  
+.logIn a:hover {
+    color: #444444;
+    text-decoration: none;
+}
 
 .magnifying {
     margin-right: 1%;
     margin-left: 1%;
 }
+
+.cart {
+    margin-left: 1%;
+}
+
 /* END TOP NAV */
 
-
 /* MAIN NAV */
-/* END MAIN NAV */
+.NavBar {
+    font-family: 'Libre Franklin', sans-serif; 
+}
 
+/* END MAIN NAV */
